@@ -475,4 +475,16 @@ NS_ASSUME_NONNULL_END
  */
 @property (nonatomic, assign, readonly) AMPopTipDirection direction;
 
+/** Blur Effect Background Enabled
+ *
+ * Turn On/Off blur effect for pop item
+ */
+@property (nonatomic, getter=isBlurEffectEnabled) BOOL blurEffectEnabled;
+
+/** Blur Effect Background Style
+ *
+ * Sets style of blur effect for pop item background
+ */
+@property (nonatomic) UIBlurEffectStyle blurEffectStyle;
+
 @end

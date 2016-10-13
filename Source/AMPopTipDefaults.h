@@ -26,3 +26,4 @@
 #define kDefaultBounceOffset 8
 #define kDefaultFloatOffset 8
 #define kDefaultPulseOffset 1.1
+#define kDefaultBlurEffectStyle 0
